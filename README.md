@@ -5,6 +5,8 @@ a front-end nginx and a backend postgres.
 
 To run terraform successfully, have an ssh key, AWS creds, and terraform installed.
 
+Once the prerequisites are in place, update vars.tf with your public IP which will be used to configure the security groups.
+
 Run:  ```terraform apply```
 
 The address of an ELB and relevant IPs will be shown in the output.
