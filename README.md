@@ -9,3 +9,10 @@ Run:  terraform apply
 
 The address of an ELB and relevant IPs will be output.
 
+The postgres server can be reached via telnet <postgres private IP> 5432 from the nginx server, or by installing psql.
+  
+TODO:
+
+add an app to write & read data from postgres
+modularize terraform config
+
