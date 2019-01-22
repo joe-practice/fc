@@ -1,4 +1,4 @@
-# Takehome exercise for Funding Circle
+# Takehome exercise for <>
 
 These terraform configurations will create a vpc, network components, and two instances: 
 a front-end nginx and a backend postgres.
